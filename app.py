@@ -824,6 +824,13 @@ if not gemini_api_key:
 if not groq_api_key:
     st.error("Environment variable 'GROQ_API_KEY' is not set.")
 
+
+# Add title and description
+st.title("Object Detection and Text Classification")
+st.write("""
+Welcome to the Object Detection and Text Classification app.
+Upload an image, and we will analyze it using Computer Vision and classify the extracted text
+""")
 # Initialize Computer Vision client
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 
