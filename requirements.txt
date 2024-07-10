@@ -4,3 +4,9 @@ transformers
 pillow
 azure-cognitiveservices-vision-computervision
 openai==0.28
+streamlit
+opencv-python-headless
+msrest
+Pillow
+groq
+python-dotenv
