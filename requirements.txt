@@ -1,0 +1,6 @@
+Flask
+torch
+transformers
+pillow
+azure-cognitiveservices-vision-computervision
+openai==0.28
